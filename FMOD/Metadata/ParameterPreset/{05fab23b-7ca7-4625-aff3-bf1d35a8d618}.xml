@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{05fab23b-7ca7-4625-aff3-bf1d35a8d618}">
+		<property name="name">
+			<value>InCave</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6eada3f4-0e7b-47e3-94a6-230a20ae0066}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{aa70c0b3-31f9-4a7b-912e-192699b5b3f5}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{aa70c0b3-31f9-4a7b-912e-192699b5b3f5}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<property name="seekSpeed">
+			<value>2</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

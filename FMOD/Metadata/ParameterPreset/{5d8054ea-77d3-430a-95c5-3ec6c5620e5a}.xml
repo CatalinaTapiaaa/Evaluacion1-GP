@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{5d8054ea-77d3-430a-95c5-3ec6c5620e5a}">
+		<property name="name">
+			<value>Volumen Sonido</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6eada3f4-0e7b-47e3-94a6-230a20ae0066}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{de8e965d-0fe5-44de-9f48-c25c4973ce8f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{de8e965d-0fe5-44de-9f48-c25c4973ce8f}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<property name="seekSpeed">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
